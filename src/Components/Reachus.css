@@ -1,0 +1,56 @@
+/* Reachus.css */
+
+.center {
+    text-align: center;
+}
+
+.table-container {
+    max-width: 900px;
+    max-height: 900px;
+    margin: auto;
+}
+
+.reach-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 160px;
+}
+
+.reach-table th, .reach-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.reach-table th {
+    background-color: #007bff; /* Bootstrap blue */
+    color: white;
+}
+
+.reach-table td {
+    border: 5px solid #ddd;
+}
+
+.reach-table img {
+    width: 80px; /* Set width of images */
+    height: 80px; /* Set height of images */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+    border-radius: 50%; /* Rounded images */
+}
+
+.reach-table td:nth-child(odd) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.reach-table td:nth-child(even) {
+    background-color: #fff; /* Alternate row background color */
+}
+
+.reach-table a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color for links */
+    font-weight: bold; /* Bold font for links */
+}
+
+.reach-table a:hover {
+    color: #007bff; /* Hover color for links */
+}
