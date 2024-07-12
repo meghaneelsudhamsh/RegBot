@@ -75,3 +75,12 @@
 .navbar-button:hover {
   background-color: #45a049;
 }
+.navbar-brand img.logo {
+  height: 40px;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
